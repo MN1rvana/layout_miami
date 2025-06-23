@@ -10,6 +10,8 @@
   gap: 24px;
   justify-content: center;
 
+    padding-top: 32px;
+
   @include for-tablet {
     grid-template-columns: repeat(6, 80px);
     justify-content: space-around;
@@ -30,7 +32,6 @@
     justify-content: space-between;
     grid-column: 1 / 13;
     grid-row: 1 / 2;
-    z-index: 9999;
 
     @include for-tablet {
       grid-column: 1 / 7;
