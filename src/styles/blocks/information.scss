@@ -27,6 +27,7 @@
 
     @include for-mobile {
       grid-column: span 2;
+      padding-bottom: 0;
     }
   }
 }
