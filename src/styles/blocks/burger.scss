@@ -5,19 +5,19 @@
   height: 18px;
 
   @include for-mobile {
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
   }
   &::before {
     content: '';
-    background-image: url(/src/images/Vector.svg);
+    background-image: url(/src/images/burger.svg);
     display: inline-block;
   }
 
   &::after {
     display: none;
     content: '';
-    background-image: url(/src/images/Vector\ \(1\).svg);
+    background-image: url(/src/images/burger__hover.svg);
   }
 
   &::before,
@@ -28,7 +28,8 @@
 
     @include for-mobile {
       width: 18px;
-      height: 18px;
+      height: 12px;
+      margin-bottom: 3px;
     }
   }
 
