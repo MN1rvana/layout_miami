@@ -64,10 +64,21 @@
     display: flex;
     justify-content: space-between;
 
+    &__icon-logo {
+      margin-left: -10px;
+      margin-top: -8px;
+    }
+
     &__icon-close {
       display: flex;
       align-items: center;
       justify-content: center;
+
+       @include for-mobile {
+            align-items: baseline;
+            margin-right: -15px;
+      }
+
     }
   }
 }
